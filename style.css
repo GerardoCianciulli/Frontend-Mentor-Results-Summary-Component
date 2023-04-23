@@ -76,7 +76,7 @@ body, p, h3 {
         max-width: 41rem;
         flex-direction: row; /*grid-template-columns: 1fr 1fr;*/
         border-radius: var(--border-radius);
-        box-shadow: .5rem 1rem 3rem hsl(var(--clr-neutral-grey), .2);
+        box-shadow: .5rem 1rem 3rem hsl(var(--clr-neutral-blue));
         overflow: hidden; /*insure children respect the border radius*/
         margin: 1rem;
     }
@@ -211,6 +211,9 @@ body, p, h3 {
 
 .attribution { 
     font-size: .69rem; text-align: center; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .attribution a { 
